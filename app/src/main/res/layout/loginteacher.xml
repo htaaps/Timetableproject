@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/lo_et_user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="user name"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:layout_marginTop="20dip"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/lo_et_pass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/lo_bt_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="login"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
